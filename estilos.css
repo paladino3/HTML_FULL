@@ -1,0 +1,85 @@
+		/* Classe CSS formatando elementos */	
+		
+	body{
+			background: #000000;
+			color: #ffffff;
+			font-size: 40px;
+			padding: 0px;
+			margin: 0px;
+
+		}
+
+		p{
+			border: 1px  dashed #ffffff;
+			margin: 10px;
+			padding: 10px;
+		}
+		
+		/*Definição por id do elemento*/
+		
+		#bloco2 {
+			
+			border: 3px solid #FF0000;
+			background-color: #0000ff;
+		}
+	
+		.nome_da_classe {
+
+			font-size: 14 px;
+			font-style: verdana;
+			background: purple;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		/*CSS Aula 37*/
+		
+		/*Clasee*/
+		.Aula37_01 {
+
+			font-size: 20px;
+			border: 0px;
+			margin: 0px;
+			background-color: #ff00ff;
+			border-bottom: 10px solid #FFF;
+			padding-bottom: 20px;
+		}
+
+		/*Por ID*/
+
+		#bloco03 {
+			padding-left: 10px;
+			font-size: 30px;
+			border: 0px;
+			
+			background-color: #d3d3d3;
+		}
+
+		/*Div formatações Aula 38*/
+
+		.class01 {
+
+			width: 940px;
+			background: #d3d3d3;
+			margin-left: auto;
+			margin-right: auto;
+			text-align-last: center;
+			display: table;
+		}
+
+		.div_colunaCentral{
+
+			width: 100%;
+			border-top: 1px solid #fff;
+			float: left;
+		}
+
+		.div_colunaEsquerda{
+			width: 50%;
+			float: left;
+		}
+		.div_colunaDireita{
+			width: 50%;
+			float: right;
+
+		}
